@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Adenson.Core.SqlServer</id>
+    <version>2.0.0-beta</version>
+    <authors>Ayo Adeniran</authors>
+    <owners>Ayo Adeniran</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://bitbucket.org/!api/2.0/snippets/ayo10/4nabr/eaa067b5a45d8b6df3a9c1daefd065143f8f6760/files/License</licenseUrl>
+    <description>SQL Server specific extensions and implementations for Adenson.Core.</description>
+    <copyright>Copyright 2017 Ayo Adeniran</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Adenson.Core" version="2.0.0.3-beta" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Adenson.Core" version="2.0.0.3-beta" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.0, .NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

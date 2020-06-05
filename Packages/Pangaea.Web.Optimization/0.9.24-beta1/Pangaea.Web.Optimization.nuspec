@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Pangaea.Web.Optimization</id>
+    <version>0.9.24-beta1</version>
+    <authors>Ayo Adeniran</authors>
+    <owners>Ayo Adeniran</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simpler alternative to Microsoft's ASP.NET optimization to bundle and optimize CSS and JavaScript files.</description>
+    <copyright>Copyright © Pangaea Information Technologies. 2013-2017.</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="Pangaea.Core" version="1.5.0" exclude="Build,Analyzers" />
+        <dependency id="AjaxMin" version="5.14.5506.26202" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

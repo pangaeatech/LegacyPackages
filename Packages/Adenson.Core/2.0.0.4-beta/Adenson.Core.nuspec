@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Adenson.Core</id>
+    <version>2.0.0.4-beta</version>
+    <authors>Ayo Adeniran</authors>
+    <owners>Ayo Adeniran</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://bitbucket.org/!api/2.0/snippets/ayo10/4nabr/eaa067b5a45d8b6df3a9c1daefd065143f8f6760/files/License</licenseUrl>
+    <projectUrl>https://bitbucket.org/ayo10/adenson.core</projectUrl>
+    <description>A collection of different utilities such as sql, mail, configuration/connection string reading, logging, etc, etc.</description>
+    <copyright>Copyright 2017 Ayo Adeniran</copyright>
+    <tags>utilities helpers</tags>
+    <repository type="private" url="https://bitbucket.org/ayo10/adenson.core" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="Microsoft.CSharp" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.TypeConverter" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.Common" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.TraceSource" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Requests" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="Microsoft.CSharp" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.TypeConverter" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.Common" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.TraceSource" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Requests" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.CSharp" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.TypeConverter" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.Common" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.TraceSource" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Requests" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0, .NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.0, .NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.0, .NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

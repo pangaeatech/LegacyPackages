@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Pangaea.Web.Optimization.Owin</id>
+    <version>1.0.1-beta3</version>
+    <authors>Ayo Adeniran</authors>
+    <owners>Ayo Adeniran</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://docs.pangaeatech.com/pit/licenses/mit.txt</licenseUrl>
+    <description>A simpler alternative to Microsoft's ASP.NET optimization to bundle and optimize CSS and JavaScript files (but still using AjaxMin).</description>
+    <releaseNotes>Now directly references nuget instead of direct project reference.</releaseNotes>
+    <copyright>Copyright © 2017 Pangaea Information Technologies.</copyright>
+    <tags>optimization, bundling, minification, owin</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="Pangaea.Web.Optimization" version="1.0.1-beta3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Owin" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Pangaea.AnalyzerRules" version="1.0.5" exclude="Build,Analyzers" />
+        <dependency id="StyleCop.Analyzers" version="1.1.0-beta004" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

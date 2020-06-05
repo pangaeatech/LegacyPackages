@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Pangaea.AnalyzerRules</id>
+    <version>1.0.2</version>
+    <authors>Ayo Adeniran</authors>
+    <owners>Pangaea Information Technologies</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Pangaea Analyzer Rules</description>
+    <releaseNotes>- Fixes an issue where path to the package folder is not resolved correctly.
+- Adds unit test rules for S#</releaseNotes>
+    <copyright></copyright>
+  </metadata>
+</package>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Pangaea.AnalyzerRules</id>
+    <version>1.0.4</version>
+    <authors>Ayo Adeniran</authors>
+    <owners>Pangaea Information Technologies</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Pangaea Analyzer Rules</description>
+    <releaseNotes>* Updates ruleset, setting the tools version to 12.0, allowing them to be usable in Visual Studio 2013
+* Relaxes rules for C# unit tests</releaseNotes>
+    <copyright></copyright>
+  </metadata>
+</package>

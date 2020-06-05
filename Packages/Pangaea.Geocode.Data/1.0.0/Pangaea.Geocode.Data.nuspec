@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Pangaea.Geocode.Data</id>
+    <version>1.0.0</version>
+    <authors>aadeniran</authors>
+    <owners>aadeniran</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://docs.pangaeatech.com/pit/licenses/mit.txt</licenseUrl>
+    <description>Package Description</description>
+    <copyright>Copyright © 2017 Pangaea Information Technologies.</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Pangaea.Geocode" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

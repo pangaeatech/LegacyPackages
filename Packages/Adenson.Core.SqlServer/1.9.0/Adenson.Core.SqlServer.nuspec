@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Adenson.Core.SqlServer</id>
+    <version>1.9.0</version>
+    <authors>Adenson.Core.SqlServer</authors>
+    <owners>Adenson.Core.SqlServer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="Adenson.Core" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Adenson.Core" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Adenson.Core" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Pangaea.Web.Optimization</id>
+    <version>1.0.2</version>
+    <authors>Ayo Adeniran</authors>
+    <owners>Ayo Adeniran</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://docs.pangaeatech.com/pit/licenses/mit.txt</licenseUrl>
+    <description>A simpler alternative to Microsoft's ASP.NET optimization to bundle and optimize CSS and JavaScript files (but still using AjaxMin).</description>
+    <releaseNotes>Now directly references nuget instead of direct project reference.</releaseNotes>
+    <copyright>Copyright © 2017 Pangaea Information Technologies.</copyright>
+    <tags>optimization, bundling, minification</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="AjaxMin" version="5.14.5506.26202" exclude="Build,Analyzers" />
+        <dependency id="Pangaea.Core" version="1.5.0.9" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
